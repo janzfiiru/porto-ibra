@@ -22,6 +22,8 @@
     <header class="header">
       <a href="#" class="logo">Porto<span>folio</span></a>
 
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
@@ -36,8 +38,8 @@
       <div class="home-content">
         <h3>Hi, My Name is</h3>
         <h1>Dzaki Ibraa</h1>
-        <h3>And I'm a <span> Graphic Designer</span></h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis totam hic aspernatur illum. Alias, culpa numquam aliquid eos corrupti voluptates cupiditate autem praesentium accusantium sequi.</p>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>Hello, this is a portfolio website created using HTML, CSS and Javascript. This website contains my portofolio along with a short biography of me and my work. Enjoy the show!</p>
         <div class="social-media">
           <a href="https://wa.me/6282138716759"><i class="fa-brands fa-whatsapp"></i></a>
           <a href="https://twitter.com/Jaxzxzy"><i class="fa-brands fa-x-twitter"></i></a>
@@ -47,21 +49,21 @@
       </div>
 
       <div class="home-img">
-        <img src="profiledp.png" alt="" />
+        <img src="img/profiledp.png" alt="" />
       </div>
     </section>
 
     <!-- About Section -->
     <section class="about" id="about">
       <div class="about-img">
-        <img src="aboutpic.png" alt="" />
+        <img src="img/aboutpic.png" alt="" />
       </div>
 
       <div class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
         <h3>Graphic Designer</h3>
         <p>Hello my name is Rafif Dzaki Ibrahim. You can call me Dzaki. I am a graphic designer and student at SMK Muhammadiyah 1 Sukoharjo. I was born on 3 January 2007. I live in Wonogiri</p>
-        <a href="" class="btn">Read More</a>
+        <a href="https://www.linkedin.com/in/rafifdzakiibrahimm/" class="btn">Read More</a>
       </div>
     </section>
 
@@ -73,22 +75,22 @@
         <div class="services-box">
           <i class="fa-solid fa-palette"></i>
           <h3>Graphic Designer</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nesciunt deserunt provident optio, fuga animi illo asperiores, velit facilis commodi, necessitatibus excepturi molestiae pariatur rerum!</p>
+          <p>A graphic designer creates visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers.</p>
           <a href="https://www.careerexplorer.com/careers/graphic-designer/" class="btn">Read More</a>
         </div>
 
         <div class="services-box">
           <i class="fa-solid fa-puzzle-piece"></i>
           <h3>UI Designer</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nesciunt deserunt provident optio, fuga animi illo asperiores, velit facilis commodi, necessitatibus excepturi molestiae pariatur rerum!</p>
+          <p>A UI designer crafts the visual layout and interactive elements of software applications, ensuring usability and aesthetic appeal for an intuitive user experience.</p>
           <a href="https://dribbble.com/resources/career/what-does-a-ui-designer-do" class="btn">Read More</a>
         </div>
 
         <div class="services-box">
           <i class="fa-solid fa-brain"></i>
           <h3>Concept Artist</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nesciunt deserunt provident optio, fuga animi illo asperiores, velit facilis commodi, necessitatibus excepturi molestiae pariatur rerum!</p>
-          <a href="https://conceptartempire.com/what-is-concept-artist/" class="btn">Read More</a>
+          <p>A concept artist creates visual representations of ideas for films, games, and other media, providing a foundation for further development in the production process.</p>
+          <a href="" class="btn">Read More</a>
         </div>
       </div>
     </section>
@@ -99,7 +101,7 @@
 
       <div class="portofolio-container">
         <div class="portofolio-box">
-          <img src="1.png" alt="" />
+          <img src="img/1.png" alt="" />
           <div class="portofolio-layer">
             <h4>PPDB Poster</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -108,7 +110,7 @@
         </div>
 
         <div class="portofolio-box">
-          <img src="2.png" alt="" />
+          <img src="img/2.png" alt="" />
           <div class="portofolio-layer">
             <h4>Logo Design</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -117,7 +119,7 @@
         </div>
 
         <div class="portofolio-box">
-          <img src="3.png" alt="" />
+          <img src="img/3.png" alt="" />
           <div class="portofolio-layer">
             <h4>PMI Poster</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -126,7 +128,7 @@
         </div>
 
         <div class="portofolio-box">
-          <img src="4.png" alt="" />
+          <img src="img/4.png" alt="" />
           <div class="portofolio-layer">
             <h4>Menu Design</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -135,7 +137,7 @@
         </div>
 
         <div class="portofolio-box">
-          <img src="5.png" alt="" />
+          <img src="img/5.png" alt="" />
           <div class="portofolio-layer">
             <h4>Commission</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -143,7 +145,7 @@
           </div>
         </div>
         <div class="portofolio-box">
-          <img src="6.png" alt="" />
+          <img src="img/6.png" alt="" />
           <div class="portofolio-layer">
             <h4>Commission</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -182,6 +184,15 @@
         <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
       </div>
     </footer>
+
+    <!-- Scroll Reveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Main JS -->
+    <script src="main.js"></script>
 
   </body>
 </html>
